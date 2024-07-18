@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif; /* Sets the font for the entire page */
+    line-height: 1.6; /* Increases space between lines */
+    margin: 20px; /* Adds margin around the content */
+}
+
+/* Applies to all images */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Applies only to images with 'special-image' class */
+.special-image {
+    border: 2px solid red; /* Example: Adds a red border */
+}
+
+.button {
+    background-color: #4CAF50; /* Green background */
+    border: none;
+    color: white; /* White text */
+    padding: 15px 32px; /* Top and bottom padding, left and right padding */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+    margin-bottom: 20px; /* Adds space below button */
+}
+
+.button:hover {
+    background-color: #45a049; /* Darker shade of green */
+}
+
+a, .link {
+    display: block; /* Makes links block-level to ensure they appear on a new line */
+    margin-bottom: 20px; /* Adds space below each link */
+    background-color: #008CBA; /* Different background color for links */
+    color: white; /* Text color for links */
+    padding: 15px 32px; /* Padding to match button */
+    text-align: center; /* Center-align text */
+    text-decoration: none; /* Removes underline from links */
+    border-radius: 8px; /* Rounded corners for aesthetic consistency */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+    margin: 4px 2px;
+    max-width: 200px;
+    width: 100%;
+    margin: 4px auto; /* Centers the button and adds vertical margin */
+}
+
+a:hover, .link:hover {
+    background-color: #0077A2; /* Darker shade for hover state */
+}
